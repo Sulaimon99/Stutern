@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    header {
+      text-align: center;
+      background: url('https://i.imgur.com/Tewbezc.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article{
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      }
+    @media (max-width: 500px){
+      h1{
+        font-size: 36px; 
+        }
+      li{
+        display: block;
+        padding: 5px;
+        }
+      }
+    img{
+    border-radius: 20px;
+    width: 203px;
+    height: 260px;
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+     }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://imgur.com/4itVNES"><img src="https://i.imgur.com/4itVNES.jpg"/></a>
+    <h1>Levitate's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best projects</a></li>
+      <li><a href="#">Awesome data</a></li>
+    </ul>
+  </header>
+  <article>
+  <h2>VHS umami pop-up trust fund</h2>
+  <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+  <button>like</button>
+  </article>
+  <article>
+  <h2>Sartorial synth Echo Park, roof party</h2>
+  <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
+  <button>like</button>
+  </article>
+  <script>
+  alert("welcome to my blog, Click OK!")
+  $("button").on("click", function() {alert("clicked!") })
+  </script>
+</body>
